@@ -18,9 +18,15 @@ func main() {
 	fmt.Println(gameRecordVos)
 
 	// _ 意味忽略，下面例子能成功赋值
-	for i, _ := range gameRecordVos  {
+	for i, vo := range gameRecordVos  {
+
+		phone := vo.Phone
+
+		pre := phone[:3]
+		last := phone[7:]
 
 		gameRecordVos[i].Amount = 123
+		gameRecordVos[i].Phone = pre + "****" + last
 	}
 
 	fmt.Println(gameRecordVos)
