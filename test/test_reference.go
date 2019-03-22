@@ -12,6 +12,11 @@ func main() {
 
 	test := Test{Name:"duoNa", Age:12}
 
+	if (Test{}) != test {
+
+		fmt.Println("test isn't nil")
+	}
+
 	testReference(test)
 }
 
