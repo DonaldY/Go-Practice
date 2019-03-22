@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fcadb4-7568-400f-81c0-5b0def602a15" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/test/test_reference.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/test_array.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/test_array.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,10 +17,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/test_array.go">
+        <entry file="file://$PROJECT_DIR$/test/test_reference.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+            <state relative-caret-position="483">
+              <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -55,6 +55,7 @@
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/handler/handler.go" />
         <option value="$PROJECT_DIR$/test/test_array.go" />
+        <option value="$PROJECT_DIR$/test/test_reference.go" />
       </list>
     </option>
   </component>
@@ -97,7 +98,7 @@
     <property name="configurable.Project.GOPATH.is.expanded" value="true" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../../Work/code/ebc-one-du-activity" />
     <property name="settings.editor.selected.configurable" value="com.goide.configuration.GoLibrariesConfigurableProvider" />
   </component>
   <component name="RunDashboard">
@@ -112,7 +113,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Go Build.go build test_array.go">
+  <component name="RunManager" selected="Go Build.go build test_reference.go">
     <configuration name="go build fibo.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
@@ -145,33 +146,34 @@
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
-    <configuration name="go build variable.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build test_reference.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="Go-Practice" />
       <working_directory value="$PROJECT_DIR$/" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/variable/variable.go" />
+      <filePath value="$PROJECT_DIR$/test/test_reference.go" />
       <directory value="$PROJECT_DIR$/" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build test_reference.go" />
         <item itemvalue="Go Build.go build test_array.go" />
         <item itemvalue="Go Build.go build fibo.go" />
         <item itemvalue="Go Build.go build rune.go" />
         <item itemvalue="Go Build.go build nonrepeating.go" />
-        <item itemvalue="Go Build.go build variable.go" />
       </list>
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
     <frame x="1920" y="-2" width="1920" height="1082" extended-state="7" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49947643" visible="true" weight="0.1664888" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49947643" visible="true" weight="0.1696905" />
       <window_info id="Structure" order="1" sideWeight="0.50052357" side_tool="true" weight="0.18036287" />
       <window_info id="Favorites" order="2" sideWeight="0.50052357" side_tool="true" weight="0.18036287" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.4994664" visible="true" weight="0.32843652" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994664" weight="0.20251836" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -268,8 +270,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/test_array.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="20" column="39" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
+        <state relative-caret-position="184">
+          <caret line="8" column="32" selection-start-line="8" selection-start-column="32" selection-end-line="8" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_reference.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="18" lean-forward="true" selection-start-line="21" selection-start-column="18" selection-end-line="21" selection-end-column="18" />
         </state>
       </provider>
     </entry>
