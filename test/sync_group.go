@@ -1,6 +1,14 @@
 package main
 
-import "sync"
+import (
+	"fmt"
+	"sync"
+)
+
+func main() {
+
+	TestSync()
+}
 
 func TestSync() {
 
@@ -12,7 +20,9 @@ func TestSync() {
 		go func(i int) {
 			defer wg.Done()
 
-			// ...
+			fmt.Println(i)
 		}(i)
 	}
+	wg.Wait()
+	fmt.Println("finished!")
 }
