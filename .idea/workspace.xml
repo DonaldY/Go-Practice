@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b8fcadb4-7568-400f-81c0-5b0def602a15" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/test/test_wait_group.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/test_chan.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/sync_group.go" beforeDir="false" afterPath="$PROJECT_DIR$/test/sync_group.go" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,25 +17,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/test/test_wait_group.go">
+        <entry file="file://$PROJECT_DIR$/test/test_chan.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="298">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
+            <state relative-caret-position="575">
+              <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
               <folding>
-                <element signature="e#14#47#0" expanded="true" />
+                <element signature="e#14#39#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/test/sync_group.go">
+        <entry file="file://$PROJECT_DIR$/test/test_context.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="529">
-              <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
-              <folding>
-                <element signature="e#14#39#0" expanded="true" />
-              </folding>
+            <state>
+              <caret column="12" selection-start-column="12" selection-end-column="12" />
             </state>
           </provider>
         </entry>
@@ -77,14 +73,16 @@
         <option value="$PROJECT_DIR$/test/test_time.go" />
         <option value="$PROJECT_DIR$/test/test_wait_group.go" />
         <option value="$PROJECT_DIR$/test/sync_group.go" />
+        <option value="$PROJECT_DIR$/test/test_chan.go" />
+        <option value="$PROJECT_DIR$/test/test_context.go" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="366" />
-    <option name="y" value="42" />
-    <option name="width" value="1430" />
-    <option name="height" value="791" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="1920" />
+    <option name="y" value="-2" />
+    <option name="width" value="1920" />
+    <option name="height" value="1055" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -186,10 +184,9 @@
     </recent_temporary>
   </component>
   <component name="ToolWindowManager">
-    <frame x="366" y="42" width="1430" height="791" extended-state="0" />
-    <editor active="true" />
+    <frame x="1920" y="-2" width="1920" height="1082" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49947643" visible="true" weight="0.25072256" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49947643" visible="true" weight="0.18516542" />
       <window_info id="Structure" order="1" sideWeight="0.50052357" side_tool="true" weight="0.18036287" />
       <window_info id="Favorites" order="2" sideWeight="0.50052357" side_tool="true" weight="0.18036287" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -202,7 +199,7 @@
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="8" />
       <window_info anchor="bottom" id="Version Control" order="9" weight="0.32948583" />
-      <window_info anchor="bottom" id="Terminal" order="10" weight="0.45464364" />
+      <window_info anchor="bottom" id="Terminal" order="10" weight="0.31479537" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50053364" side_tool="true" weight="0.3297414" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -342,11 +339,28 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/test/sync_group.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="529">
+        <state relative-caret-position="598">
           <caret line="26" column="26" selection-start-line="26" selection-start-column="26" selection-end-line="26" selection-end-column="26" />
           <folding>
             <element signature="e#14#39#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_chan.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="575">
+          <caret line="25" column="16" lean-forward="true" selection-start-line="25" selection-start-column="16" selection-end-line="25" selection-end-column="16" />
+          <folding>
+            <element signature="e#14#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test/test_context.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
