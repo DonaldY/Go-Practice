@@ -4,17 +4,20 @@ import "fmt"
 
 func main() {
 
-	testDefer()
+	fmt.Println(*testDefer())
 
 }
 
-func testDefer() {
+func testDefer() *int {
 
 	a := 1
 
 	defer func() {
-		fmt.Println(a)
+		fmt.Println("123456")
+		a = 3
 	}()
 
 	a = 2
+
+	return &a
 }
