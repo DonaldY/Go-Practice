@@ -2,9 +2,9 @@ package main
 
 import (
 	"fmt"
-	"time"
 	"sync"
 	"sync/atomic"
+	"time"
 )
 
 func main() {
