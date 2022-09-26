@@ -10,19 +10,20 @@ var wg sync.WaitGroup
 // goroutine1
 func main() {
 
-	defer fmt.Println("---main goroutine over---")
+	// defer用于资源的释放，会在函数返回之前进行调用
+	defer fmt.Println("====主goroutine 结束====")
 
 	wg.Add(1)
 
-	// goroutine2
+	// 运行匿名函数
 	go func() {
-		fmt.Println("Im a goroutine")
+		fmt.Println("运行子goroutine")
 		wg.Done()
 	}()
 
-	fmt.Println("---wait sub goroutine over---")
+	fmt.Println("====等待 子goroutine 结束====")
 
 	wg.Wait()
 
-	fmt.Println("---sub goroutine over---")
+	fmt.Println("====子goroutine 结束====")
 }
